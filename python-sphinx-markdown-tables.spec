@@ -7,6 +7,10 @@ URL:		https://pypi.org/project/sphinx-markdown-tables/
 License:	GPL
 Group:		Development/Python
 BuildRequires:	python-setuptools
+# Rather hard to trace because of the obscure error message:
+# 'PathDistribution' object has no attribute '_normalized_name'
+# (without a backtrace indicating where that comes from)
+Conflicts:	python%{py_ver}dist(importlib-metadata) < 4.3.0
 BuildArch:	noarch
 
 %description
