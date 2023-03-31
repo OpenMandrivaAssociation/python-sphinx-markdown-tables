@@ -1,6 +1,6 @@
 Name:		python-sphinx-markdown-tables
 Version:	0.0.17
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/s/sphinx-markdown-tables/sphinx-markdown-tables-%{version}.tar.gz
 Summary:	A Sphinx extension for rendering tables written in markdown
 URL:		https://pypi.org/project/sphinx-markdown-tables/
